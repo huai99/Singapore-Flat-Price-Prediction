@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hdb-server:
+    build: ./server
+  reverse-proxy:
+    image: nginx:latest
+    ports:
+     - "80:80"
+    volumes:
+     - ./nginx.conf:/etc/nginx/nginx.conf
