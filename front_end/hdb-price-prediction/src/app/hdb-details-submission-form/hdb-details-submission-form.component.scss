@@ -1,0 +1,74 @@
+.hdb-form-area {
+  margin: auto;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2%;
+  border-radius: 2%;
+}
+
+.prediction-area {
+  font-family: Verdana sans-serif;
+  text-align: center;
+}
+
+.building-image {
+  width: 50%;
+}
+
+.building-image-area {
+  text-align: center;
+}
+
+// Cite the source
+// https://unsplash.com/photos/15Hb4VQjyBI
+.main-body {
+  background: url("../../assets/mike-smaller.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  height: max-content;
+  padding-bottom: 2%;
+}
+
+.title-area {
+  background-color: transparent;
+}
+
+.prediction-label {
+  font-weight: 600;
+}
+
+.how-this-work {
+  margin-bottom: 2%;
+  text-decoration: underline;
+}
+
+.how-this-work a:hover {
+  cursor: pointer;
+}
+
+.footnote-area {
+  font-size: 0.8rem;
+}
+
+.disclaimer {
+  font-style: italic;
+}
+
+.bold-class {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 700px) {
+  .hdb-form-area {
+    margin: auto;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    border-radius: 2%;
+  }
+}
+
+
