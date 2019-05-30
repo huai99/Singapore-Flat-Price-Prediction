@@ -1,0 +1,485 @@
+{
+  "_id": "5cc3d409bcd350114cb4abfc",
+  "type": "form",
+  "tags": [],
+  "owner": "58800a046d641a0071957478",
+  "components": [
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "label": "Town",
+      "key": "town",
+      "placeholder": "",
+      "data": {
+        "values": [
+          {
+            "value": "ANG MO KIO",
+            "label": "ANG MO KIO"
+          },
+          {
+            "value": "BEDOK",
+            "label": "BEDOK"
+          },
+          {
+            "value": "BISHAN",
+            "label": "BISHAN"
+          },
+          {
+            "value": "BUKIT BATOK",
+            "label": "BUKIT BATOK"
+          },
+          {
+            "value": "BUKIT MERAH",
+            "label": "BUKIT MERAH"
+          },
+          {
+            "value": "BUKIT PANJANG",
+            "label": "BUKIT PANJANG"
+          },
+          {
+            "value": "BUKIT TIMAH",
+            "label": "BUKIT TIMAH"
+          },
+          {
+            "value": "CENTRAL AREA",
+            "label": "CENTRAL AREA"
+          },
+          {
+            "value": "CHOA CHU KANG",
+            "label": "CHOA CHU KANG"
+          },
+          {
+            "value": "CLEMENTI",
+            "label": "CLEMENTI"
+          },
+          {
+            "value": "GEYLANG",
+            "label": "GEYLANG"
+          },
+          {
+            "value": "HOUGANG",
+            "label": "HOUGANG"
+          },
+          {
+            "value": "JURONG EAST",
+            "label": "JURONG EAST"
+          },
+          {
+            "value": "JURONG WEST",
+            "label": "JURONG WEST"
+          },
+          {
+            "value": "KALLANG/WHAMPOA",
+            "label": "KALLANG/WHAMPOA"
+          },
+          {
+            "value": "MARINE PARADE",
+            "label": "MARINE PARADE"
+          },
+          {
+            "value": "PASIR RIS",
+            "label": "PASIR RIS"
+          },
+          {
+            "value": "PUNGGOL",
+            "label": "PUNGGOL"
+          },
+          {
+            "value": "QUEENSTOWN",
+            "label": "QUEENSTOWN"
+          },
+          {
+            "value": "SEMBAWANG",
+            "label": "SEMBAWANG"
+          },
+          {
+            "value": "SENGKANG",
+            "label": "SENGKANG"
+          },
+          {
+            "value": "SERANGGON",
+            "label": "SERANGGON"
+          },
+          {
+            "value": "TAMPINES",
+            "label": "TAMPINES"
+          },
+          {
+            "value": "TOA PAYOH",
+            "label": "TOA PAYOH"
+          },
+          {
+            "value": "WOODLANDS",
+            "label": "WOODLANDS"
+          },
+          {
+            "value": "YISHUN",
+            "label": "YISHUN"
+          }
+        ],
+        "url": "",
+        "resource": "",
+        "custom": ""
+      },
+      "dataSrc": "values",
+      "valueProperty": "",
+      "defaultValue": "",
+      "refreshOn": "",
+      "filter": "",
+      "authenticate": false,
+      "template": "<span>{{ item.label }}</span>",
+      "multiple": false,
+      "protected": false,
+      "unique": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": true
+      },
+      "type": "select",
+      "labelPosition": "top",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "tooltip": ""
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "label": "Flat Type",
+      "key": "flat_type",
+      "placeholder": "",
+      "data": {
+        "values": [
+          {
+            "value": "1 ROOM",
+            "label": "1 ROOM"
+          },
+          {
+            "value": "2 ROOM",
+            "label": "2 ROOM"
+          },
+          {
+            "value": "3 ROOM",
+            "label": "3 ROOM"
+          },
+          {
+            "value": "4 ROOM",
+            "label": "4 ROOM"
+          },
+          {
+            "value": "5 ROOM",
+            "label": "5 ROOM"
+          },
+          {
+            "value": "EXECUTIVE",
+            "label": "EXECUTIVE"
+          },
+          {
+            "value": "MULTI-GENERATION",
+            "label": "MULTI-GENERATION"
+          }
+        ],
+        "json": "",
+        "url": "",
+        "resource": "",
+        "custom": ""
+      },
+      "dataSrc": "values",
+      "valueProperty": "",
+      "defaultValue": "",
+      "refreshOn": "",
+      "filter": "",
+      "authenticate": false,
+      "template": "<span>{{ item.label }}</span>",
+      "multiple": false,
+      "protected": false,
+      "unique": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": true
+      },
+      "type": "select",
+      "labelPosition": "top",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "lockKey": true
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "inputType": "number",
+      "label": "Floor",
+      "key": "floor",
+      "placeholder": "Which floor are you staying in?",
+      "prefix": "",
+      "suffix": "",
+      "defaultValue": "",
+      "protected": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": true,
+        "min": 1,
+        "max": 42,
+        "step": "any",
+        "integer": "",
+        "multiple": "",
+        "custom": ""
+      },
+      "type": "number",
+      "labelPosition": "top",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "lockKey": true
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "inputType": "number",
+      "label": "Floor Area (Square Metre)",
+      "key": "floor_area_sqm",
+      "placeholder": "",
+      "prefix": "",
+      "suffix": "",
+      "defaultValue": "",
+      "protected": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": true,
+        "min": "",
+        "max": "",
+        "step": "any",
+        "integer": "",
+        "multiple": "",
+        "custom": ""
+      },
+      "type": "number",
+      "labelPosition": "top",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "lockKey": true
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "label": "Flat Model",
+      "key": "flat_model",
+      "placeholder": "Optional",
+      "data": {
+        "values": [
+          {
+            "value": "Improved",
+            "label": "Improved"
+          },
+          {
+            "value": "New Generation",
+            "label": "New Generation"
+          },
+          {
+            "value": "Standard",
+            "label": "Standard"
+          },
+          {
+            "value": "Model A",
+            "label": "Model A"
+          },
+          {
+            "value": "Simplified",
+            "label": "Simplified"
+          },
+          {
+            "value": "Premium Apartment",
+            "label": "Premium Apartment"
+          },
+          {
+            "value": "Maisonette",
+            "label": "Maisonette"
+          },
+          {
+            "value": "Model A-Maisonette",
+            "label": "Model A-Maisonette"
+          },
+          {
+            "value": "Apartment",
+            "label": "Apartment"
+          },
+          {
+            "value": "Adjoined flat",
+            "label": "Adjoined flat"
+          },
+          {
+            "value": "Multi Generation",
+            "label": "Multi Generation"
+          },
+          {
+            "value": "Model A2",
+            "label": "Model A2"
+          },
+          {
+            "value": "Terrace",
+            "label": "Terrace"
+          },
+          {
+            "value": "Improved-Maisonette",
+            "label": "Improved-Maisonette"
+          },
+          {
+            "value": "Premium Maisonette",
+            "label": "Premium Maisonette"
+          },
+          {
+            "value": "DBSS",
+            "label": "DBSS"
+          },
+          {
+            "value": "Type S1",
+            "label": "Type S1"
+          }
+        ],
+        "json": "",
+        "url": "",
+        "resource": "",
+        "custom": ""
+      },
+      "dataSrc": "values",
+      "valueProperty": "",
+      "defaultValue": "",
+      "refreshOn": "",
+      "filter": "",
+      "authenticate": false,
+      "template": "<span>{{ item.label }}</span>",
+      "multiple": false,
+      "protected": false,
+      "unique": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": false
+      },
+      "type": "select",
+      "labelPosition": "top",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "lockKey": true
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "tableView": true,
+      "inputType": "number",
+      "label": "Lease Commencement Date",
+      "key": "lease_commence_date",
+      "placeholder": "",
+      "prefix": "",
+      "suffix": "",
+      "defaultValue": "",
+      "protected": false,
+      "persistent": true,
+      "hidden": false,
+      "clearOnHide": true,
+      "validate": {
+        "required": true,
+        "min": 1966,
+        "max": 2018,
+        "step": "any",
+        "integer": "",
+        "multiple": "",
+        "custom": ""
+      },
+      "type": "number",
+      "labelPosition": "top",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "lockKey": true,
+      "tooltip": "The date when the lease starts"
+    },
+    {
+      "autofocus": false,
+      "input": true,
+      "label": "Submit",
+      "tableView": false,
+      "key": "submit",
+      "size": "md",
+      "leftIcon": "",
+      "rightIcon": "",
+      "block": false,
+      "action": "event",
+      "disableOnInvalid": true,
+      "theme": "primary",
+      "type": "button",
+      "tags": [],
+      "conditional": {
+        "show": "",
+        "when": null,
+        "eq": ""
+      },
+      "properties": {},
+      "headers": [],
+      "url": "http://www.google.com"
+    }
+  ],
+  "revisions": "",
+  "_vid": 0,
+  "title": "HDB Form",
+  "display": "form",
+  "access": [
+    {
+      "roles": [
+        "588010ee6d641a00719574a1",
+        "588010ee6d641a00719574a0",
+        "588010ee6d641a007195749f"
+      ],
+      "type": "read_all"
+    }
+  ],
+  "submissionAccess": [],
+  "settings": {},
+  "name": "hdbForm",
+  "path": "hdbform",
+  "project": "588010ee6d641a007195749e",
+  "created": "2019-04-27T04:01:13.844Z",
+  "modified": "2019-05-20T07:00:01.819Z",
+  "machineName": "okjbjeduxiekrut:hdbForm"
+}
