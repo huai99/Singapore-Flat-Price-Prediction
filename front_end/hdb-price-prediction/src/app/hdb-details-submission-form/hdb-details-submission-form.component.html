@@ -1,29 +1,22 @@
-<!-- Navigation bar with social media icons -->
-<div class="w3-bar w3-black w3-container">
-  <a href="https://www.linkedin.com/in/siehuai/" class="w3-bar-item w3-button"><i class="fa fa-2x fa-linkedin"></i></a>
-  <a href="https://github.com/huai99" class="w3-bar-item w3-button"><i class="fa fa-2x fa-github"></i></a>
-  <a href="https://medium.com/@edricgan.44" class="w3-bar-item w3-button"><i class="fa fa-2x fa-medium"></i></a>
-</div>
 <div class="main-body">
   <div class="w3-content title-area">
     <!-- Header -->
     <header class="w3-container w3-center w3-padding-48">
       <h1 class="w3-xxxlarge"><b>Singapore Flat Price Predictor</b></h1>
-      <h6>Welcome, I'm <span class="w3-tag">Sie Huai</span>&nbsp;😊</h6>
     </header>
   </div>
   <div class="hdb-main-area">
     <div class="hdb-form-area">
-      <formio src="https://okjbjeduxiekrut.form.io/hdbform"
+      <!--      <formio src="https://okjbjeduxiekrut.form.io/hdbform"-->
+      <!--              (customEvent)="submitValue($event)"-->
+      <!--              (render)="onRender()"-->
+      <!--              #formioComponent-->
+      <!--      ></formio>-->
+      <formio [form]="formJson"
               (customEvent)="submitValue($event)"
               (render)="onRender()"
               #formioComponent
       ></formio>
-      <!--  <formio [form]="formJson"-->
-      <!--          (customEvent)="submitValue($event)"-->
-      <!--          (render)="onRender()"-->
-      <!--          #formioComponent-->
-      <!--  ></formio>-->
       <div class="prediction-area">
         <h3 *ngIf="isPredictionReturn"><span
           class="prediction-label">Prediction for resale price is:</span> {{prediction}} SGD
@@ -35,6 +28,12 @@
         </div>
         <p class="disclaimer"><span class="bold-class">*Disclaimer</span>: This is just a fun side project to showcase
           the power of machine learning, please do not use this for any business critical decision</p>
+      </div>
+      <div class="connect-with-me-area">
+        <a href="https://www.linkedin.com/in/siehuai/" class="w3-bar-item w3-button"><i
+          class="fa fa-2x fa-linkedin"></i></a>
+        <a href="https://github.com/huai99" class="w3-bar-item w3-button"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://medium.com/@edricgan.44" class="w3-bar-item w3-button"><i class="fa fa-2x fa-medium"></i></a>
       </div>
     </div>
   </div>
