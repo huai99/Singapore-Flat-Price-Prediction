@@ -55,7 +55,7 @@ export class HdbDetailsSubmissionFormComponent implements OnInit {
     ret['storey_random'] = [input['floor']];
     ret['floor_area_sqm'] = [input['floor_area_sqm']];
     ret['flat_model'] = [input['flat_model']];
-    ret['street_name'] = ['BISHAN ST 13'];
+    ret['street_name'] = [''];
     ret['lease_commence_date'] = [input['lease_commence_date']];
 
     const formatDateToYearDay = (dateStr) => {
