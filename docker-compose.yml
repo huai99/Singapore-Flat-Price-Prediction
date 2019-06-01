@@ -8,3 +8,5 @@ services:
      - "80:80"
     volumes:
      - ./nginx.conf:/etc/nginx/nginx.conf
+  hdb-front-end:
+     build: ./front_end/hdb-price-prediction

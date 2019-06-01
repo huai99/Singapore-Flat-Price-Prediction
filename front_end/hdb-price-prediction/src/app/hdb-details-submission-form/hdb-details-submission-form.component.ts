@@ -55,14 +55,13 @@ export class HdbDetailsSubmissionFormComponent implements OnInit {
     ret['storey_random'] = [input['floor']];
     ret['floor_area_sqm'] = [input['floor_area_sqm']];
     ret['flat_model'] = [input['flat_model']];
-    ret['street_name'] = ['BISHAN ST 13'];
+    ret['street_name'] = [''];
     ret['lease_commence_date'] = [input['lease_commence_date']];
 
     const formatDateToYearDay = (dateStr) => {
       const a_date = new Date(dateStr);
       return `${a_date.getFullYear()}-${a_date.getMonth() + 1}`;
     };
-    // ret['month'] = [formatDateToYearDay(input['salesDate'])];
     ret['month'] = ['2017-05'];
     ret['block'] = [''];
     return {'payload': ret};
@@ -73,7 +72,7 @@ export class HdbDetailsSubmissionFormComponent implements OnInit {
   }
 
   getHousePricePrediction(payload: any): Observable<number> {
-    return this.httpClient.post('http://localhost/hdb/predict', payload)
+    return this.httpClient.post('http://34.87.108.41/hdb/predict', payload)
       .pipe(
         map((response: any) => {
           return response;
