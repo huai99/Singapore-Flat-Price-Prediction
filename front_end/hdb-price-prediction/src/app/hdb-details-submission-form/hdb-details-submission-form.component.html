@@ -2,7 +2,7 @@
   <div class="w3-content title-area">
     <!-- Header -->
     <header class="w3-container w3-center w3-padding-48">
-      <h1 class="w3-xxxlarge"><b>Singapore Flat Price Predictor</b></h1>
+      <h1><b>Singapore Flat Price Predictor</b></h1>
     </header>
   </div>
   <div class="hdb-main-area">
@@ -18,9 +18,9 @@
               #formioComponent
       ></formio>
       <div class="prediction-area">
-        <h3 *ngIf="isPredictionReturn"><span
+        <p *ngIf="isPredictionReturn"><span
           class="prediction-label">Prediction for resale price is:</span> {{prediction}} SGD
-        </h3>
+        </p>
       </div>
       <div *ngIf="isRendered" class="footnote-area">
         <div class="how-this-work">

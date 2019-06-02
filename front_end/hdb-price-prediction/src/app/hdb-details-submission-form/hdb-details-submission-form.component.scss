@@ -65,13 +65,21 @@
   text-align: center;
 }
 
+.prediction-area {
+  font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 700px) {
   .hdb-form-area {
     margin: auto;
-    width: 70%;
+    width: 85%;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 2%;
     border-radius: 2%;
+  }
+
+  .prediction-area {
+    font-size: 1.1rem;
   }
 }
 
