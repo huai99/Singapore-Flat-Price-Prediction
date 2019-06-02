@@ -72,7 +72,7 @@ export class HdbDetailsSubmissionFormComponent implements OnInit {
   }
 
   getHousePricePrediction(payload: any): Observable<number> {
-    return this.httpClient.post('https://34.87.108.41/hdb/predict', payload)
+    return this.httpClient.post('https://siehuai0095.com/hdb/predict', payload)
       .pipe(
         map((response: any) => {
           return response;
