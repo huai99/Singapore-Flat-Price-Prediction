@@ -8,5 +8,7 @@ services:
      - "80:80"
     volumes:
      - ./nginx.conf:/etc/nginx/nginx.conf
+     - ./security/website-cert.pem:/etc/ssl/certs/website-cert.pem
+     - ./security/website-private-key.pem:/etc/ssl/certs/website-private-key.pem
   hdb-front-end:
      build: ./front_end/hdb-price-prediction
