@@ -13,7 +13,7 @@ COPY package.json /usr/src/app/package.json
 RUN npm install 
 
 COPY . /usr/src/app
-RUN ng build --deployUrl=/hdb-flat-price-predictor/ --baseHref=/hdb-flat-price-predictor/
+RUN ng build --prod --aot --deployUrl=/hdb-flat-price-predictor/ --baseHref=/hdb-flat-price-predictor/
 
 
 FROM nginx:alpine
