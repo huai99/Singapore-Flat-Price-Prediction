@@ -14,7 +14,7 @@ RUN npm install
 RUN npm install -g gzip-all
 
 COPY . /usr/src/app
-RUN ng build --prod --aot --deployUrl=/hdb-flat-price-predictor/ --baseHref=/hdb-flat-price-predictor/ && gzip-all "dist/hdb-price-prediction/*.js"
+RUN ng build --prod --aot --deployUrl=/sg-flat-price-predictor/ --baseHref=/sg-flat-price-predictor/ && gzip-all "dist/hdb-price-prediction/*.js"
 
 FROM nginx:alpine
  
